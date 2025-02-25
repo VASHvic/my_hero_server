@@ -1,0 +1,1 @@
+- Think what makes sense to save on a database if any, or maybe just sqlite

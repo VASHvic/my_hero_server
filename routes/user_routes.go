@@ -6,8 +6,8 @@ import (
 	"github.com/gofiber/fiber/v3"
 )
 
-func SetupRoutes(app *fiber.App) {
-	api := app.Group("/api") // Grouping API routes
+func SetupUserRoutes(app *fiber.App) {
+	api := app.Group("/api")
 
 	user := api.Group("/users")
 	user.Get("/", handlers.GetUsers)
